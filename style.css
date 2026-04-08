@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    text-align: center;
+    background-color: antiquewhite;
+    color: saddlebrown;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    font-size: 23px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: burlywood;
+    border-color: peru;
+}
+button:hover {
+    background-color: #eac79b;
+    border-color: #e3a671;
+}
+
+#grid {
+    display: grid;
+}
+
+#score {
+    display: flex;
+    justify-content: center;
+}
+#num {
+    margin-left: 5px;
+}
+
+#clicks {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+#\# {
+    margin-left: 5px;
+}
+
+#accuracy {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+#percent {
+    margin-left: 5px;
+}

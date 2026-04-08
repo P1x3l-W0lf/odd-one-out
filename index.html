@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd One Out</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Odd One Out</h1>
+<h3 id="status"></h3>
+
+<div id="grid">
+    <div id="row1">
+        <button id="#1" onclick="check(1)"></button>
+        <button id="#2" onclick="check(2)"></button>
+        <button id="#3" onclick="check(3)"></button>
+    </div>
+    <div id="row2">
+        <button id="#4" onclick="check(4)"></button>
+        <button id="#5" onclick="check(5)"></button>
+        <button id="#6" onclick="check(6)"></button>
+    </div>
+    <div id="row3">
+        <button id="#7" onclick="check(7)"></button>
+        <button id="#8" onclick="check(8)"></button>
+        <button id="#9" onclick="check(9)"></button>
+    </div>
+</div>
+
+<div id="score">
+    <h3>Score: </h3>
+    <h3 id="num"></h3>
+</div>
+<div id="clicks">
+    <h3>Clicks: </h3>
+    <h3 id="#"></h3>
+</div>
+<div id="accuracy">
+    <h3>Accuracy: </h3>
+    <h3 id="percent"></h3>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
